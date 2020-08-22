@@ -6,8 +6,8 @@ import "semantic-ui-css/semantic.min.css";
 
 import Home from "./Home";
 import Nav from "./Nav";
-import SignUp from "./Auth/SignUp";
-import Landing from "./Landing/Landing";
+import SignUp from "./components/js/SignUp";
+import Landing from "./components/js/Landing";
 import Profile from "./Profile/Profile";
 import requireAuth from "./Auth/requireAuth";
 

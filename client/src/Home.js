@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Grid, Tab } from 'semantic-ui-react'
 
-import SignUp from './Auth/SignUp';
-import SignIn from './Auth/SignIn';
+import SignUp from './components/js/SignUp';
+import SignIn from './components/js/SignIn';
 
 const panes = [
   { menuItem: 'Log In', render: () => <Tab.Pane attached='top'><SignIn/></Tab.Pane> },
