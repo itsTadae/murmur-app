@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 import { reduxForm, Field } from 'redux-form';
-import * as actions from '../../actions/auth';
+import * as actions from './Auth.js';
 
 import { Button, Form, Grid, Header, Image, Message, Segment, Transition } from 'semantic-ui-react'
 import { Link } from 'react-router-dom';

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Segment, Card, Icon, Image, Header, List } from 'semantic-ui-react';
-import * as photoActions from '../../actions/photo';
+import * as photoActions from './Photo';
 import * as userActions from '../../actions/user';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
